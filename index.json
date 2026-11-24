@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 2,
-  "generatedAt": "2026-11-24T14:41:13Z",
-  "expiresAt": "2026-12-24T14:41:13Z",
+  "sequence": 3,
+  "generatedAt": "2026-11-24T14:42:37Z",
+  "expiresAt": "2026-12-24T14:42:37Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -43,6 +43,53 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Tài khoản.",
             "en": "First release of Accounts."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.assistant",
+      "slug": "assistant",
+      "name": {
+        "vi": "Trợ lý",
+        "en": "Assistant"
+      },
+      "description": {
+        "vi": "Hỏi về tài khoản, tệp và dung lượng. Chỉ đọc: mọi thay đổi chỉ là đề xuất.",
+        "en": "Ask about accounts, files and storage. Read-only: every change is only a proposal."
+      },
+      "icon": "bot",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "backend",
+          "channel": "stable",
+          "file": "assistant-backend-1.0.0.anospkg",
+          "size": 6417408,
+          "sha256": "d3f77fa22aa7cadd92333c02a8226e397d30536652b8b65d7f2b48b99aa65fbf",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Trợ lý.",
+            "en": "First release of Assistant."
+          }
+        },
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "assistant-ui-1.0.0.anospkg",
+          "size": 1168384,
+          "sha256": "9e6cb49f0b4847f089ef9a7611b615bd8797aeaf0a47d07025ee109d48e3f4a7",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Trợ lý.",
+            "en": "First release of Assistant."
           }
         }
       ]
