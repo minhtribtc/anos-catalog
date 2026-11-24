@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 4,
-  "generatedAt": "2026-11-24T14:44:31Z",
-  "expiresAt": "2026-12-24T14:44:31Z",
+  "sequence": 5,
+  "generatedAt": "2026-11-24T14:45:41Z",
+  "expiresAt": "2026-12-24T14:45:41Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -137,6 +137,39 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Tệp.",
             "en": "First release of Files."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.logs",
+      "slug": "logs",
+      "name": {
+        "vi": "Nhật ký",
+        "en": "Logs"
+      },
+      "description": {
+        "vi": "Nhật ký kiểm toán và log dịch vụ cho quản trị viên hệ thống và tổ chức",
+        "en": "Audit trail and service logs for system and organization administrators"
+      },
+      "icon": "logs",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "logs-ui-1.0.0.anospkg",
+          "size": 1078784,
+          "sha256": "346d2b5d0a9273650eef7ef33a483c19ebd10045467a14ba3f095fe801dd4d0f",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Nhật ký.",
+            "en": "First release of Logs."
           }
         }
       ]
