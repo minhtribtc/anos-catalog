@@ -1,0 +1,17 @@
+{
+  "formatVersion": 1,
+  "catalogId": "anos.official",
+  "sequence": 1,
+  "generatedAt": "2026-11-24T14:40:07Z",
+  "expiresAt": "2026-12-24T14:40:07Z",
+  "publishers": [
+    {
+      "keyId": "82b6e931e888fc41",
+      "name": "AnOS",
+      "appIdPrefixes": [
+        "anos."
+      ]
+    }
+  ],
+  "apps": []
+}
