@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 7,
-  "generatedAt": "2026-11-24T14:48:21Z",
-  "expiresAt": "2026-12-24T14:48:21Z",
+  "sequence": 8,
+  "generatedAt": "2026-11-24T14:49:28Z",
+  "expiresAt": "2026-12-24T14:49:28Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -236,6 +236,39 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Cài đặt.",
             "en": "First release of Settings."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.storage",
+      "slug": "storage",
+      "name": {
+        "vi": "Lưu trữ",
+        "en": "Storage"
+      },
+      "description": {
+        "vi": "Volume, hạn mức tổ chức, thư mục chia sẻ và quota",
+        "en": "Volumes, organization allocations, shared folders and quota"
+      },
+      "icon": "storage",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "storage-ui-1.0.0.anospkg",
+          "size": 1178112,
+          "sha256": "50863d2b7de8a6fc803dab87bf4fc5b0092fcf04a9b21cf6beb3203071628813",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Lưu trữ.",
+            "en": "First release of Storage."
           }
         }
       ]
