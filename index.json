@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 1,
-  "generatedAt": "2026-11-24T14:40:07Z",
-  "expiresAt": "2026-12-24T14:40:07Z",
+  "sequence": 2,
+  "generatedAt": "2026-11-24T14:41:13Z",
+  "expiresAt": "2026-12-24T14:41:13Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -13,5 +13,39 @@
       ]
     }
   ],
-  "apps": []
+  "apps": [
+    {
+      "appId": "anos.accounts",
+      "slug": "accounts",
+      "name": {
+        "vi": "Tài khoản",
+        "en": "Accounts"
+      },
+      "description": {
+        "vi": "Tài khoản, nhóm, vai trò và bảo mật",
+        "en": "Accounts, groups, roles and security"
+      },
+      "icon": "shield",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "accounts-ui-1.0.0.anospkg",
+          "size": 1281024,
+          "sha256": "9b2d7e8b23d1b94114e5ccc5a50c8aa94dd3516cda400070fa054c9c02a085b0",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Tài khoản.",
+            "en": "First release of Accounts."
+          }
+        }
+      ]
+    }
+  ]
 }
