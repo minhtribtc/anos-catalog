@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 3,
-  "generatedAt": "2026-11-24T14:42:37Z",
-  "expiresAt": "2026-12-24T14:42:37Z",
+  "sequence": 4,
+  "generatedAt": "2026-11-24T14:44:31Z",
+  "expiresAt": "2026-12-24T14:44:31Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -90,6 +90,53 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Trợ lý.",
             "en": "First release of Assistant."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.files",
+      "slug": "files",
+      "name": {
+        "vi": "Tệp",
+        "en": "Files"
+      },
+      "description": {
+        "vi": "Tệp và thư mục cá nhân của bạn",
+        "en": "Your personal files and folders"
+      },
+      "icon": "files",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "backend",
+          "channel": "stable",
+          "file": "files-backend-1.0.0.anospkg",
+          "size": 9800704,
+          "sha256": "8a5551953f418516cea49716bb7fee52a4965ad477a4b0d63f0f3216a2dc4443",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Tệp.",
+            "en": "First release of Files."
+          }
+        },
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "files-ui-1.0.0.anospkg",
+          "size": 1254400,
+          "sha256": "39fff478d2c95cf5dea8b22a19505b9cc4304b41c265497a4cc17a28f35d3991",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Tệp.",
+            "en": "First release of Files."
           }
         }
       ]
