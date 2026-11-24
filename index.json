@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 6,
-  "generatedAt": "2026-11-24T14:47:10Z",
-  "expiresAt": "2026-12-24T14:47:10Z",
+  "sequence": 7,
+  "generatedAt": "2026-11-24T14:48:21Z",
+  "expiresAt": "2026-12-24T14:48:21Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -203,6 +203,39 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Thông báo.",
             "en": "First release of Notifications."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.settings",
+      "slug": "settings",
+      "name": {
+        "vi": "Cài đặt",
+        "en": "Settings"
+      },
+      "description": {
+        "vi": "Ngôn ngữ, giao diện, màn hình chính, liên kết và cài đặt của ứng dụng",
+        "en": "Language, appearance, Home, links and app settings"
+      },
+      "icon": "settings",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "settings-ui-1.0.0.anospkg",
+          "size": 1291776,
+          "sha256": "308be85aa2383a3198b67516b3123a9312c3e3304d17c74667cf9fe1c21b4745",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Cài đặt.",
+            "en": "First release of Settings."
           }
         }
       ]
