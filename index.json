@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 8,
-  "generatedAt": "2026-11-24T14:49:28Z",
-  "expiresAt": "2026-12-24T14:49:28Z",
+  "sequence": 9,
+  "generatedAt": "2026-11-24T14:50:34Z",
+  "expiresAt": "2026-12-24T14:50:34Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -269,6 +269,39 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Lưu trữ.",
             "en": "First release of Storage."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.store",
+      "slug": "store",
+      "name": {
+        "vi": "Kho ứng dụng",
+        "en": "App Store"
+      },
+      "description": {
+        "vi": "Cài và cập nhật ứng dụng từ catalog đã ký",
+        "en": "Install and update apps from the signed catalog"
+      },
+      "icon": "app",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "store-ui-1.0.0.anospkg",
+          "size": 1105408,
+          "sha256": "d287d01c808f59a59538218335bf04843ee6828aeaa2575f93864210ccb9f4ca",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Kho ứng dụng.",
+            "en": "First release of App Store."
           }
         }
       ]
