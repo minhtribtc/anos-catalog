@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 5,
-  "generatedAt": "2026-11-24T14:45:41Z",
-  "expiresAt": "2026-12-24T14:45:41Z",
+  "sequence": 6,
+  "generatedAt": "2026-11-24T14:47:10Z",
+  "expiresAt": "2026-12-24T14:47:10Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -170,6 +170,39 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Nhật ký.",
             "en": "First release of Logs."
+          }
+        }
+      ]
+    },
+    {
+      "appId": "anos.notifications",
+      "slug": "notifications",
+      "name": {
+        "vi": "Thông báo",
+        "en": "Notifications"
+      },
+      "description": {
+        "vi": "Hộp thư thông báo của bạn",
+        "en": "Your notification inbox"
+      },
+      "icon": "bell",
+      "publisher": "82b6e931e888fc41",
+      "channels": [
+        "stable"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sequence": 1795530976,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "notifications-ui-1.0.0.anospkg",
+          "size": 1176064,
+          "sha256": "509941d5f5d14367b285102d8c5ae992b3e73e474c30af7233254ae24aa88def",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Bản phát hành đầu tiên của Thông báo.",
+            "en": "First release of Notifications."
           }
         }
       ]
