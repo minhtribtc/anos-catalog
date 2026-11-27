@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 10,
-  "generatedAt": "2026-11-27T07:48:08Z",
-  "expiresAt": "2026-12-27T07:48:08Z",
+  "sequence": 11,
+  "generatedAt": "2026-11-27T07:49:42Z",
+  "expiresAt": "2026-12-27T07:49:42Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -93,6 +93,20 @@
           }
         },
         {
+          "version": "2.0.0",
+          "sequence": 1795765753,
+          "kind": "backend",
+          "channel": "stable",
+          "file": "assistant-backend-2.0.0.anospkg",
+          "size": 6417408,
+          "sha256": "05c57c78b575b0651d0fa81d753d928e6613ff1ce2d791de6fbf05fa783de38f",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Công cụ viết app `anos` có lại `anos new` (sinh khung app, backend Rust trên anos-app-sdk) và `anos dev` (chạy thử app trên máy, không cần instance), viết lại bằng Rust. Trợ lý và Tệp: chỉ cập nhật tệp khoá phụ thuộc Rust dùng chung, không đổi chức năng. Ứng dụng chuyển sang phiên bản 2.0.0, cùng dòng với AnOS v2; từ nay mỗi thay đổi khai báo mức semver của nó. Bản dựng chỉ còn Rust: mã Go được bỏ khỏi nền tảng và các app, không đổi chức năng. Khôi phục bản sao lưu không còn đưa mật khẩu đã đổi sau lúc sao lưu trở lại: Core ghi lại sổ an ninh (D-51) và lần khôi phục áp dụng nó. Backend của app không còn thấy thư mục cấu hình của instance, chỉ còn thư mục khoá công khai giấy phép, ở chế độ chỉ đọc. Một cửa sổ app (như Tài khoản) không còn bị đăng xuất khi Desktop đổi mã phiên cùng lúc: nó chờ câu trả lời của cả trang rồi gửi lại.",
+            "en": "The app author tool `anos` has `anos new` (create an app, with a Rust backend on anos-app-sdk) and `anos dev` (run an app on this machine without an instance) again, rewritten in Rust. Assistant and Files: only the shared Rust dependency lock file changes, no change in behaviour. Apps move to version 2.0.0, in line with AnOS v2; from now on every change declares its semver level. Rust-only build: Go is removed from the platform and the apps, with no change in behaviour. Restoring a backup no longer brings back a password changed after the backup: Core writes the security ledger again (D-51) and the restore applies it. App backends no longer see the instance's configuration directory, only the permit public key's directory, read-only. An app window (such as Accounts) is no longer signed out when the Desktop replaces the session ID at the same time: it waits for the whole page's answers, then sends again."
+          }
+        },
+        {
           "version": "1.0.0",
           "sequence": 1795530976,
           "kind": "ui",
@@ -104,6 +118,20 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Trợ lý.",
             "en": "First release of Assistant."
+          }
+        },
+        {
+          "version": "2.0.0",
+          "sequence": 1795765753,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "assistant-ui-2.0.0.anospkg",
+          "size": 1168896,
+          "sha256": "558b9baa8209e75becec104fed80018ce8164a92ce650db5edb73ec56ca982f6",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Công cụ viết app `anos` có lại `anos new` (sinh khung app, backend Rust trên anos-app-sdk) và `anos dev` (chạy thử app trên máy, không cần instance), viết lại bằng Rust. Trợ lý và Tệp: chỉ cập nhật tệp khoá phụ thuộc Rust dùng chung, không đổi chức năng. Ứng dụng chuyển sang phiên bản 2.0.0, cùng dòng với AnOS v2; từ nay mỗi thay đổi khai báo mức semver của nó. Bản dựng chỉ còn Rust: mã Go được bỏ khỏi nền tảng và các app, không đổi chức năng. Khôi phục bản sao lưu không còn đưa mật khẩu đã đổi sau lúc sao lưu trở lại: Core ghi lại sổ an ninh (D-51) và lần khôi phục áp dụng nó. Backend của app không còn thấy thư mục cấu hình của instance, chỉ còn thư mục khoá công khai giấy phép, ở chế độ chỉ đọc. Một cửa sổ app (như Tài khoản) không còn bị đăng xuất khi Desktop đổi mã phiên cùng lúc: nó chờ câu trả lời của cả trang rồi gửi lại.",
+            "en": "The app author tool `anos` has `anos new` (create an app, with a Rust backend on anos-app-sdk) and `anos dev` (run an app on this machine without an instance) again, rewritten in Rust. Assistant and Files: only the shared Rust dependency lock file changes, no change in behaviour. Apps move to version 2.0.0, in line with AnOS v2; from now on every change declares its semver level. Rust-only build: Go is removed from the platform and the apps, with no change in behaviour. Restoring a backup no longer brings back a password changed after the backup: Core writes the security ledger again (D-51) and the restore applies it. App backends no longer see the instance's configuration directory, only the permit public key's directory, read-only. An app window (such as Accounts) is no longer signed out when the Desktop replaces the session ID at the same time: it waits for the whole page's answers, then sends again."
           }
         }
       ]
