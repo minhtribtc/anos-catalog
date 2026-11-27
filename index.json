@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "catalogId": "anos.official",
-  "sequence": 15,
-  "generatedAt": "2026-11-27T07:54:52Z",
-  "expiresAt": "2026-12-27T07:54:52Z",
+  "sequence": 16,
+  "generatedAt": "2026-11-27T07:55:59Z",
+  "expiresAt": "2026-12-27T07:55:59Z",
   "publishers": [
     {
       "keyId": "82b6e931e888fc41",
@@ -381,6 +381,20 @@
           "releaseNotes": {
             "vi": "Bản phát hành đầu tiên của Lưu trữ.",
             "en": "First release of Storage."
+          }
+        },
+        {
+          "version": "2.0.0",
+          "sequence": 1795766148,
+          "kind": "ui",
+          "channel": "stable",
+          "file": "storage-ui-2.0.0.anospkg",
+          "size": 1179136,
+          "sha256": "93f3610fd70a27f0609bcd3c1282bb4bfbdbec2fbe2870060907150d4c176a2b",
+          "minAnOS": "2.0.3",
+          "releaseNotes": {
+            "vi": "Ứng dụng chuyển sang phiên bản 2.0.0, cùng dòng với AnOS v2; từ nay mỗi thay đổi khai báo mức semver của nó. Bản dựng chỉ còn Rust: mã Go được bỏ khỏi nền tảng và các app, không đổi chức năng. Khôi phục bản sao lưu không còn đưa mật khẩu đã đổi sau lúc sao lưu trở lại: Core ghi lại sổ an ninh (D-51) và lần khôi phục áp dụng nó. Backend của app không còn thấy thư mục cấu hình của instance, chỉ còn thư mục khoá công khai giấy phép, ở chế độ chỉ đọc. Một cửa sổ app (như Tài khoản) không còn bị đăng xuất khi Desktop đổi mã phiên cùng lúc: nó chờ câu trả lời của cả trang rồi gửi lại.",
+            "en": "Apps move to version 2.0.0, in line with AnOS v2; from now on every change declares its semver level. Rust-only build: Go is removed from the platform and the apps, with no change in behaviour. Restoring a backup no longer brings back a password changed after the backup: Core writes the security ledger again (D-51) and the restore applies it. App backends no longer see the instance's configuration directory, only the permit public key's directory, read-only. An app window (such as Accounts) is no longer signed out when the Desktop replaces the session ID at the same time: it waits for the whole page's answers, then sends again."
           }
         }
       ]
