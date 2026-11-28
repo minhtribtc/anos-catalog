@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "catalogId": "anos.official",
+  "sequence": 1,
+  "generatedAt": "2026-11-28T04:04:43Z",
+  "expiresAt": "2026-12-28T04:04:43Z",
+  "releases": [
+    {
+      "version": "2.2.0",
+      "channel": "stable",
+      "minFrom": "2.1.0",
+      "size": 11767172,
+      "sha256": "e53ab15c27add440bc8261d7a0a73e8f366291ecdefc41200b75265317d155cb",
+      "file": "anos_2.2.0_amd64.deb",
+      "url": "https://github.com/minhtribtc/AnOS/releases/download/v2.2.0/anos_2.2.0_amd64.deb",
+      "publishedAt": "2026-11-28T04:04:43Z",
+      "releaseNotes": {
+        "vi": "Trình quản lý gói: quay lui hay cập nhật một app ngay sau vài lần cập nhật liền nhau không còn bị systemd từ chối khởi động (start-limit-hit) và kẹt thao tác. Cập nhật hệ thống ngay trong AnOS: Cài đặt có mục Cập nhật hệ thống để xem bản mới và ghi chú, cài ngay, hẹn giờ, tự động trong khung giờ, hoặc tải tệp cập nhật lên khi không có mạng. Trước khi cài, AnOS kiểm chữ ký và tạo bản sao lưu; bản mới không chạy được thì tự quay về bản cũ, kể cả cơ sở dữ liệu. Màn hình chính báo đếm ngược trước khi cài và giữ lại bản nháp đang soạn. Kho ứng dụng: thẻ Cập nhật có lối tới Cập nhật hệ thống.",
+        "en": "Package manager: rolling back or updating an app right after a few quick updates is no longer refused by systemd (start-limit-hit), which left the operation stuck. System updates from inside AnOS: Settings has a System update panel to see the new release and its notes, install now, at a set time, automatically in a window, or from an uploaded file when offline. Before installing, AnOS checks the signature and takes a backup; a release that does not start is rolled back automatically, database included. The Desktop counts down before an install and keeps unsaved drafts. App Store: the Updates tab links to System update."
+      }
+    }
+  ]
+}
